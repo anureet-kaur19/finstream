@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: stock-price-fetcher-service
+
+  server:
+    port: 8081
+
+  logging:
+    level:
+      org.springframework.web: DEBUG
+      org.springframework.security: WARN
