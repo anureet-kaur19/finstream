@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>ingestion-service</artifactId>
+
+    <parent>
+        <groupId>com.finstream</groupId>
+        <artifactId>finstream</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath> <!-- Path to the parent POM -->
+    </parent>
+
+    <dependencies>
+        <!-- Spring Boot dependencies specific to this service -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <!-- For accessing external APIs or databases (optional) -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+        <!-- Add any additional dependencies specific to your microservice -->
+    </dependencies>
+
+    <!-- Build configuration for this module -->
+    <build>
+        <plugins>
+            <!-- Inherited plugins from parent pom (e.g., spring-boot-maven-plugin) -->
+        </plugins>
+    </build>
+
+</project>

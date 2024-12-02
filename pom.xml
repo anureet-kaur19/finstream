@@ -2,8 +2,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/POM/4.0.0/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.stockwatch</groupId>
-    <artifactId>stockwatch</artifactId>
+    <groupId>com.finstream</groupId>
+    <artifactId>finstream</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
@@ -16,10 +16,10 @@
     </properties>
 
     <modules>
-        <module>stock-price-fetcher-service</module>
-        <module>alert-service</module>
-        <module>stock-price-processor-service</module>
-        <module>user-preferences-service</module>
+        <module>analytics-service</module>
+        <module>ingestion-service</module>
+        <module>storage-service</module>
+        <module>reporting-service</module>
     </modules>
 
     <!-- Dependency management section for shared dependencies -->
