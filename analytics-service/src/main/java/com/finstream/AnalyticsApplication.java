@@ -1,6 +1,6 @@
 package com.finstream;
 
-public class Main {
+public class AnalyticsApplication {
   public static void main(String[] args) {
     System.out.println("Hello world!");
   }
