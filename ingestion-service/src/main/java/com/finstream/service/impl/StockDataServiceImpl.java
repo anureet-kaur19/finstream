@@ -1,7 +1,7 @@
-package com.finstream.services.impl;
+package com.finstream.service.impl;
 
 import com.finstream.model.StockDataResponse;
-import com.finstream.services.StockDataService;
+import com.finstream.service.StockDataService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

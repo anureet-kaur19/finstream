@@ -1,4 +1,4 @@
-package com.finstream.services;
+package com.finstream.service;
 
 import com.finstream.model.StockDataResponse;
 import reactor.core.publisher.Mono;

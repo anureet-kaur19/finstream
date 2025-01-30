@@ -1,9 +1,9 @@
-package com.finstream.schedulers;
+package com.finstream.scheduler;
 
 import com.finstream.dto.StockDataDto;
 import com.finstream.kafka.producer.MessageProducer;
 import com.finstream.model.StockDataResponse;
-import com.finstream.services.StockDataService;
+import com.finstream.service.StockDataService;
 import jakarta.annotation.PostConstruct;
 import java.time.Duration;
 import java.time.Instant;
